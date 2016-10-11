@@ -38,6 +38,13 @@ class TopToolbar(UI.Toolbar):
         self.elements = []
 
     def render(self):
+        logo = UI.Label('Website name')
+        menu_items = UI.Block(
+            items=[
+                UI.Button(text='Home'),
+                UI.Button(text='About'),
+            ]
+        )
         btn_login = LoginButton(onclick=self.login)
         self.add(logo, menu_items, btn_login)
         return super().render()
