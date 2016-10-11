@@ -7,10 +7,8 @@ In this project I will try to implement ReactJS solution of incapsulate UI and l
 ```python
 from PythonReact import UI, core
 
+
 class LoginButton(UI.Element):
-    actions = set([
-        'click'
-    ])
 
     def __init__(self, **kwargs):
         self.args = kwargs
@@ -35,6 +33,7 @@ class LoginButton(UI.Element):
  
  
 class TopToolbar(UI.Toolbar):
+
     def __init__(self):
         self.elements = []
 
