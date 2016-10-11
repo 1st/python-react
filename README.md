@@ -39,7 +39,8 @@ class TopToolbar(UI.Toolbar):
 
     def render(self):
         btn_login = LoginButton(onclick=self.login)
-        self.add()
+        self.add(logo, menu_items, btn_login)
+        return super().render()
     
     def login(self, data):
         if data.get('success'):
