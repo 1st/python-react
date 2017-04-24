@@ -2,6 +2,8 @@
 
 In this project I will try to implement ReactJS solution of incapsulate UI and logic in one component. But will do it in **Python** language.
 
+> **See also:** [reactive-ui](https://github.com/1st/reactive-ui) set of UI components for ReactJS.
+
 ## Examples
 
 ```python
